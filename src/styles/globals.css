@@ -1,1 +1,41 @@
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap';
+/*
+  @importing `tailwindcss`below declares the css layers and imports the node_modules css:
+
+  @layer theme, base, components, utilities   // uses css layers, no magic
+  @import './theme.css' layer(theme)          // configure tailwind and app theme
+  @import './preflight.css' layer(base)       // reset
+  @import './utilities.css' layer(utilities)  // app utility classes
+*/
 @import 'tailwindcss';
+
+
+@theme {
+  --color-dldc-dark-charcoal: #231f20;
+  --color-dldc-slate-gray: #6a7180;
+  --color-dldc-green: #1a8b39;
+  --color-dldc-black: #000000;
+  --color-dldc-mint: #d3e7e9;
+  --color-dldc-mint-950: #2a494c;
+  --color-dldc-light-gray: #f9f9f9;
+  --color-dldc-cool-gray: #6c7281;
+  --color-dldc-very-dark-gray: #231f1f;
+  --color-dldc-accent: oklch(0.7 0.3182 342);
+  --color-neon-green: oklch(0.84 0.3559 145.53);
+  --font-outfit: "Outfit", "sans-serif";
+  --font-ibm-plex-sans: "IBM Plex Sans", "sans-serif";
+  --font-sans: "IBM Plex Sans", "sans-serif";
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #f9f8f7;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-ibm-plex-sans);
+  }
+}

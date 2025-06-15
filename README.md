@@ -31,7 +31,7 @@
 ----
 
 ## What is this?
-This is an all open source, easy to use, simple-as-possible Next.js and Tailwind CSS starter app. It creates a home page with a hero component at `localhost:3000`
+This is an all open source, easy to use, simple-as-possible Next.js and Tailwind CSS starter app. It creates a home page with a hero and grid component at `localhost:3000`
 
 The build is kept as simple as possible and uses only npm, Typescript, and PostCSS. Does not have any database or service dependencies.
 
@@ -54,11 +54,8 @@ Tailwind does a lot of heavy lifting:
 - Form library and utilities from Headless UI (by Tailwind team)
 
 **Technical notes**
-- Typescript was selected for deployment compatibility, although it makes React more technical to use
-  - strict mode is off by default — to turn it on, set `"strict": true,` in `tsconfig.json`
-  - strict mode will force you to learn Typescript, this might not be what you want
+- Typescript in strict mode selected for deployment compatibility, although it makes React more technical to use
 - Tailwind CSS in installed into Next.js using PostCSS — the Vercel recommended tool
-  - you can safely choose to not use any PostCSS libraries, and write Tailwind or any CSS as-is
 
 | Name | Description | Version | Link |
 |------|---------|-------------|------|
@@ -74,8 +71,4 @@ Tailwind does a lot of heavy lifting:
 ----
 
 ## Screenshot of the home page at `localhost:3000`
-[↑ back to top](https://github.com/duggi/dldc-nextjs-tailwind-starter?tab=readme-ov-file#dldc-nextjs-tailwind-starter-kit)
-
-![image](https://github.com/user-attachments/assets/a1415844-82e5-4992-ba80-041e7d06f615)
-
-
+<img width=800 src="https://github.com/user-attachments/assets/87c0fa0d-6b50-4934-8368-6c66eaf2f247" />
