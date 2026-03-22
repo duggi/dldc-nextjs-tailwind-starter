@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@headlessui/react": "^2.2.1",
+    "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
-    "next": "^15.2.4",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "next": "^16.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,11 +13,11 @@
     "lint": "next lint"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.1",
-    "@types/node": "22.14.0",
-    "@types/react": "19.1.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.1",
-    "typescript": "5.8.2"
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "5.9.3"
   }
 }
