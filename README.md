@@ -59,14 +59,17 @@ Tailwind does a lot of heavy lifting:
 
 | Name | Description | Version | Link |
 |------|---------|-------------|------|
-| Vercel | A publishing plaform for Next.js, React, and other cloud deployments | `--` | [Link]() 
-| Next.js |  React framework by Vercel | `15.2.4` | [Link](https://vercel.com/frameworks/nextjs) |
-| React | Open source Javascript library from Meta | `19.1.0` | [Link](https://react.dev/)
-| Typescript | Javascript with extra syntax for stricter tooling | `5.8.2` | [Link](https://www.typescriptlang.org/)
-| Tailwind CSS | A utility-first CSS framework | `4.1.1` | [Link](https://tailwindcss.com/)
-| Heroicons | Hand-crafted SVG icons, by the makers of Tailwind CSS | `2.2.1` | [Link](https://heroicons.com/)
-| Headless UI | Unstyled, fully accessible UI components, by the makers of Tailwind CSS | `2.2.1` | [Link](https://headlessui.com/)
-| PostCSS | Tool for transforming CSS with JavaScript | `8.5.3` | [Link](https://postcss.org/)
+| nvm | Node Version Manager | `0.40.3` | [Link](https://github.com/nvm-sh/nvm) |
+| Node.js | JavaScript runtime | `24.14.0` | [Link](https://nodejs.org/) |
+| npm | Node package manager | `11.9.0` | [Link](https://www.npmjs.com/) |
+| Vercel | A publishing plaform for Next.js, React, and other cloud deployments | `--` | [Link](https://vercel.com/) |
+| Next.js |  React framework by Vercel | `16.2.1` | [Link](https://vercel.com/frameworks/nextjs) |
+| React | Open source Javascript library from Meta | `19.2.4` | [Link](https://react.dev/) |
+| Typescript | Javascript with extra syntax for stricter tooling | `5.9.3` | [Link](https://www.typescriptlang.org/) |
+| Tailwind CSS | A utility-first CSS framework | `4.2.2` | [Link](https://tailwindcss.com/) |
+| Heroicons | Hand-crafted SVG icons, by the makers of Tailwind CSS | `2.2.0` | [Link](https://heroicons.com/) |
+| Headless UI | Unstyled, fully accessible UI components, by the makers of Tailwind CSS | `2.2.9` | [Link](https://headlessui.com/) |
+| PostCSS | Tool for transforming CSS with JavaScript | `8.5.8` | [Link](https://postcss.org/) |
 
 ----
 
